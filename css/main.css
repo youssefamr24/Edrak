@@ -1,32 +1,70 @@
+
 * 
 {
-    background-color: #FAF7F0;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.main 
+
+      
+
+header 
 {
-    border-radius: 2px;
-    border-color: black;
-
+    background-color: #f2f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
 }
 
 
-.main a img 
+.logo
 {
-    display: block;
-    width: 100px;
-    height: 100px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
+.navigation a
+{
+    
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 6px 14px;
+    color: #000000;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 1.4;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s,transform 0.3s;
+    background-color: #000000;
+    color: #f2f0f0;
+    border-radius: 10px; 
+}
 
-.description p 
+.navigation a:hover
+{ 
+    transform: scale(1.05);        
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+
+}
+
+.description
 {
     text-align: center;
     background-color: #d7bd81;
     padding: 20px;
-    margin: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 12px;
 
 }
 
@@ -34,7 +72,6 @@
 {
     background-color: #d7bd81;
     padding: 20px;
-    margin: 20px;
     text-align: center;
 }
 
