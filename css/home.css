@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+header {
+    background-color: #423f32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: #f1ebe5;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.navigation a {
+
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 6px 14px;
+    color: #000000;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 1.4;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s, transform 0.3s;
+    background-color: #f1ebe5;
+    color: #423f32;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+section {
+    padding: 200px 300px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center center;
+    display: flex;
+    background-color: #cdcfc0;
+    /* background: url(/imgs/L.png) no-repeat;  */
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+.main h2 {
+    color: #423f32;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+.main h3 span {
+    letter-spacing: 8px;
+    color: #333026;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: #423f32;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.main-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    border: 1px solid #423f32;
+    letter-spacing: 1px;
+    background-color: #423f32;
+    color: #f1ebe5;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    transform: scale(1.05);
+    color: #423f32;
+    background-color: #f1ebe5;
+}
+
+
+.social-icons a {
+    color: #423f32;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+
+.footer {
+    background-color: #d7bd81;
+    padding: 20px;
+    text-align: center;
+}
