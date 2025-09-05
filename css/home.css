@@ -56,42 +56,56 @@ header {
 }
 
 
-section {
-    padding: 200px 200px;
-}
+/* section {
+    padding: 100px 100px;
+} */
 
 
 .main {
     width: 100%;
     min-height: 100vh;
-    align-items: center center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     display: flex;
     background-color: #cdcfc0;
-    /* background: url(/imgs/L.png) no-repeat;  */
-    background-position: center;
     background-attachment: fixed;
 
 }
 
+.main-content {
+    max-width: 700px;
+    transform: translateY(-100px);
+}
 
+.main-logo img {
+    padding-bottom: 100px;
+    max-width: 500px;
+    /* adjust size */
+    height: 500px;
+    border-radius: 15px;
+    /* optional: rounded corners */
+
+}
 
 .main h2 {
     color: #423f32;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 500;
 
 }
 
 .main h3 span {
     letter-spacing: 8px;
-    color: #333026;
+    color: #423f32;
+    /* color: #333026; */
     display: inline-block;
     margin-top: 10px;
     font-size: 3em;
     font-weight: 800;
 }
 
-.main h2 span {
+/* .main h2 span {
     display: inline-block;
     color: #423f32;
     font-size: 2em;
@@ -99,7 +113,7 @@ section {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
-}
+} */
 
 
 .main-btn {
@@ -112,23 +126,72 @@ section {
     border-radius: 15px;
     border: 1px solid #423f32;
     letter-spacing: 1px;
-    background-color: #423f32;
-    color: #f1ebe5;
+    background-color: #f1ebe5;
+    color: #423f32;
     transition: 0.7s ease;
 }
 
 .main-btn:hover {
     transform: scale(1.05);
-    color: #423f32;
-    background-color: #f1ebe5;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .social-icons a {
     color: #423f32;
     font-size: 1.7em;
-    padding-right: 30px;
+    padding: 10px;
 }
+
+
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1ebe5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+    /* same padding style as header spacing */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+    color: #423f32;
+}
+
+.about-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333026;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.about-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-logo img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
 
 
 

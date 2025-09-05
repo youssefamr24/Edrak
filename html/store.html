@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/store.css"> 
+    <link rel="stylesheet" href="/css/store.css">
     <title>Edrak Store</title>
 
 </head>
+
 <body>
-    
+
     <header>
         <a href="home.html" class="logo">LE</a>
         <nav class="navigation">
@@ -29,7 +31,7 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
 
@@ -39,7 +41,7 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
 
@@ -49,7 +51,7 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
 
@@ -59,7 +61,7 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
 
@@ -69,7 +71,7 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
 
@@ -79,9 +81,66 @@
             <div class="card-content">
                 <h3>Card Title</h3>
                 <p>This is a simple card example. You can customize it as needed.</p>
-                <a href="#">View</a>
+                <a href="#" class="viewBtn">View</a>
             </div>
         </div>
-</section>
+
+        <div class="card">
+            <img src="/imgs/Black cap.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>This is a simple card example. You can customize it as needed.</p>
+                <a href="#" class="viewBtn">View</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="/imgs/Beige cap.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>This is a simple card example. You can customize it as needed.</p>
+                <a href="#" class="viewBtn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/imgs/Pink cap.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>This is a simple card example. You can customize it as needed.</p>
+                <a href="#" class="viewBtn">View</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/imgs/Grey cap.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Card Title</h3>
+                <p>This is a simple card example. You can customize it as needed.</p>
+                <a href="#" class="viewBtn">View</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Product">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalTitle">Product Title</h2>
+                    <p id="modalDescription">This is the description of the product.</p>
+                    <button id="addToCartBtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/store.js"></script>
 </body>
+
 </html>
